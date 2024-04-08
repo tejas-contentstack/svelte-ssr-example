@@ -102,7 +102,7 @@ function buildPage(component, props_json, clientImports, serverClientMap) {
 }
 
 const HOST = process.env.NODE_HOST || 'localhost';
-const PORT = process.env.NODE_PORT || 3000;
+const PORT = process.env.PORT || process.env.NODE_PORT || 3000;
 const PUBLIC_STATIC_PATH = 'STATIC_PATH';
 const DEV = 'DEV_SERVER' === 'true';
 
