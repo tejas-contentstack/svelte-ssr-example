@@ -18,10 +18,12 @@
 	}
 	update();
 	function decrease() {
-	    size = nextDown;
-	    update();
+	console.log('decreased font size');
+	size = nextDown;
+		update();
 	}
 	function increase() {
+		console.log('incrased font size')
 	    size = nextUp;
 	    update();
 	}
