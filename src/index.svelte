@@ -46,5 +46,5 @@
 		<a class:disabled={disableUp} href='?props={JSON.stringify({size: nextUp})}'
 			on:click|preventDefault={increase}>Increase font size to {nextUp}</a>
 	</div>
-	<h1 style='font-size: {size}px'>Wellcome <Icon name="globe" title="globe icon" />!</h1>
+	<h1 style='font-size: {size}px'>Hello World! <Icon name="globe" title="globe icon" />!</h1>
 </Template>
